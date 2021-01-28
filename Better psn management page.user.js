@@ -50,9 +50,9 @@
             window.overrideMiddleName = middleName.value;
             window.overrideLastName = lastName.value;
 
-            firstName.value = "OFirst";
-            middleName.value = "OMiddle";
-            lastName.value = "OLast";
+            firstName.value = "Inspute";
+            middleName.value = " ";
+            lastName.value = " ";
 
             var keyEvent = document.createEvent('KeyboardEvent');
             keyEvent.initEvent('keyup',true,true);
